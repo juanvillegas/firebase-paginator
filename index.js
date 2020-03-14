@@ -1,2 +1,2 @@
-import FirebasePaginator from './firebase-paginator';
-export default FirebasePaginator;
+const FirebasePaginator = require('./firebase-paginator-es5');
+module.exports = FirebasePaginator;
